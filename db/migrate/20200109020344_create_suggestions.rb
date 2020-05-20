@@ -3,6 +3,7 @@ class CreateSuggestions < ActiveRecord::Migration[5.2]
     create_table :suggestions do |t|
       t.string :title
       t.string :content
+      t.integer :user_id
       t.integer :game_id
 
       t.timestamps

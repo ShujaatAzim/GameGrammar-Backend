@@ -1,3 +1,6 @@
+user1 = User.create(email: "shujaat@test.com")
+user2 = User.create(email: "argoo@test.com")
+
 game1 = Game.create(name: "Halo 5: Guardians", company: "343 Industries")
 game2 = Game.create(name: "World of Warcraft", company: "Blizzard")
 
